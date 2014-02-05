@@ -1304,6 +1304,16 @@
       z-index: 100;
     }
 
+    .bintop > h1
+    {
+      color: white;
+      line-height: 1;
+      padding-left:20px; 
+      font-family:SourceSansPro-Light;
+      font-size: 2.5rem;
+      text-rendering: optimizeSpeed;
+    }
+
     .collection
     {
       position:fixed;
@@ -1454,6 +1464,16 @@
       z-index: 100;
     }
 
+    .bintop > h1
+    {
+      color: white;
+      line-height: 1;
+      padding-left:20px; 
+      font-family:SourceSansPro-Light;
+      font-size: 2rem;
+      text-rendering: optimizeSpeed;
+    }
+
     .collection
     {
       position: fixed;
@@ -1520,6 +1540,16 @@
       background: #2c3958;
       width:256px;
       height: 100px;
+    }
+
+    .bintop > h1
+    {
+      color: white;
+      line-height: 1;
+      padding-left:20px; 
+      font-family:SourceSansPro-Light;
+      font-size: 2rem;
+      text-rendering: optimizeSpeed;
     }
 
     .bin1 
@@ -1724,6 +1754,16 @@
     }
 
     #bin{}
+
+    .bintop > h1
+    {
+      color: white;
+      line-height: 1.8;
+      padding-left: 10px;
+      font-family: SourceSansPro-Light;
+      font-size: 1.5rem;
+      text-rendering: optimizeSpeed;
+    }
 
     .bintop
     {
