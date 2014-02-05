@@ -1470,8 +1470,9 @@
       line-height: 1;
       padding-left:20px; 
       font-family:SourceSansPro-Light;
-      font-size: 2rem;
+      font-size: 1.5rem;
       text-rendering: optimizeSpeed;
+      top: -0.5rem;
     }
 
     .collection
@@ -1548,7 +1549,7 @@
       line-height: 1;
       padding-left:20px; 
       font-family:SourceSansPro-Light;
-      font-size: 2rem;
+      font-size: 1rem;
       text-rendering: optimizeSpeed;
     }
 
@@ -1761,7 +1762,7 @@
       line-height: 1.8;
       padding-left: 10px;
       font-family: SourceSansPro-Light;
-      font-size: 1.5rem;
+      font-size: 1rem;
       text-rendering: optimizeSpeed;
     }
 

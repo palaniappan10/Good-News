@@ -71,9 +71,6 @@
   	font-size: 11px;
   }
 
-
-
-
   a1
   {
     font-family:SourceSansPro-Light;
@@ -339,8 +336,17 @@
     position: absolute;
     right: 100;
     bottom: 15;
-    display: none;
   }
+
+  .bin_tap_bubble_onextwo
+   {
+     position: absolute;
+     right: 100;
+     bottom: 15;
+     z-index: 100;
+     width: 6.5%;
+     pointer-events:all;
+   }
 
   .rating
   {
@@ -365,7 +371,6 @@
     position: absolute;
     right: 100;
     top: 15;
-    display: none;
   }
 
   .rating_quotes
@@ -431,6 +436,16 @@
     bottom: 49px;
   }
 
+  .bin_tap_bubble_onextwo
+   {
+     position: absolute;
+     right: 100;
+     bottom: 15;
+     z-index: 100;
+     width: 6.5%;
+     pointer-events:all;
+   }
+
   .bin_tap_bubble
   {
     position: absolute;
@@ -438,7 +453,6 @@
     bottom: 15;
     z-index: 100;
     width: 60%;
-    display:none;
   }
 
   .rating
@@ -478,7 +492,6 @@
     top: 15;
     z-index: 100;
     width: 60%;
-    display: none;
   }
 
   .rating_quotes
@@ -777,7 +790,6 @@
     padding-right:5%; 
     display: inline-block;
   }
-
 }
 
 /*fonts for username menu, bins, and for rating dsah img for media min 1024 to 1279*/
@@ -1075,7 +1087,6 @@
     padding-bottom: 40px;
     display: inline-block;
   }
-
 }*/
 
 /*fonts for username menu, bins, and for rating dsah img for media min 1280 to 1919*/
@@ -1108,6 +1119,15 @@
     right: 100;
     bottom: 15;
   }
+
+   .bin_tap_bubble_onextwo
+   {
+     position: absolute;
+     right: 100;
+     bottom: 15;
+     z-index: 100;
+     pointer-events:all;
+   }
 
   .bin_tap_quotes
   {
@@ -1400,7 +1420,6 @@
     font-size: 1.3rem;
     text-rendering: optimizeSpeed;
   }
-
 }
 
 /*fonts for username menu, bins, and for rating dsah img for media min 1920*/
@@ -1426,6 +1445,15 @@
     left: 20px;
     bottom: 52px;
   }
+
+   .bin_tap_bubble_onextwo
+ {
+   position: absolute;
+   right: 100;
+   bottom: 15;
+   z-index: 100;
+   pointer-events:all;
+ }
 
   .bin_tap_bubble
   {
