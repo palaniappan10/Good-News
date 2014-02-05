@@ -1311,7 +1311,17 @@
       top: -23px;
       right: 30px;
       padding: 30px;
-      width: 5%;
+    }
+
+    .highlight
+    {
+      position: absolute;
+      width: 80px;
+      height: auto;
+      background-color: #2c3958;
+      height: 3rem;
+      top: -23px;
+      right: -20px;
     }
 
     .back_top
@@ -1321,18 +1331,6 @@
     top: -23px;
     right: 150px;
     padding: 30px;
-    width: 5%;
-    }
-
-    .highlight
-    {
-      position: absolute;
-      width: 110px;
-      background-color: #2c3958;
-      height: 120px;
-      top: 0px;
-      right: 35px;
-      z-index: 0;
     }
 
     .left_icon
@@ -1458,33 +1456,30 @@
 
     .collection
     {
-      position:fixed;
+      position: fixed;
       display: inline;
-      top: -23px;
-      right: 30px;
-      padding: 30px;
-      width: 5%;
+      top: 0rem;
+      right: 1rem;
+      width: 3rem;    
     }
 
     .back_top
     {
-    position:fixed;
-    display: inline;
-    top: -23px;
-    right: 150px;
-    padding: 30px;
-    width: 5%;
+      position:fixed;
+      display: inline;
+      top: 0rem;
+      right: 5rem;
+      width: 3rem; 
     }
 
     .highlight
     {
       position: absolute;
-      width: 110px;
+      width: 4rem;
       background-color: #2c3958;
       height: 120px;
-      top: 0px;
-      right: 35px;
-      z-index: 0;
+      top: 0rem;
+      right: 0.5rem;
     }
 
     .left_icon
@@ -1521,7 +1516,7 @@
     {
       position: absolute;
       top: 61px;
-      right: 0px;
+      right: 0.5rem;
       background: #2c3958;
       width:256px;
       height: 100px;
@@ -1530,7 +1525,7 @@
     .bin1 
     {
       position: absolute;
-      right:0;
+      right:0.5rem;
       top: 112px;
       width: 256px;
       height: 100px;
@@ -1543,7 +1538,7 @@
     .bin2 
     {
       position: absolute;
-      right: 0;
+      right: 0.5rem;
       top: 212px;
       width: 256px;
       height: 100px;
@@ -1556,7 +1551,7 @@
     .bin3 
     {
       position: absolute;
-      right: 0;
+      right: 0.5rem;
       top: 312px;
       width: 256px;
       height: 100px;
@@ -1570,7 +1565,7 @@
     .bin4 
     {
       position: absolute;
-      right: 0;
+      right: 0.5rem;
       top: 412px;
       width: 256px;
       height: 100px;
@@ -1591,33 +1586,30 @@
 
     .collection
     {
-      position:fixed;
-      display: none;
-      top: 5px;
-      right: 30px;
-      padding:10px;
-      width: 5%;
+      position: fixed;
+      display: inline;
+      right: 1rem;
+      width: 3rem;
+      top: 0rem;
     }
 
     .back_top
     {
-    position:fixed;
-    display: inline;
-    top: 5px;
-    right: 120px;
-    padding: 10px;
-    width: 5%;
+      position: fixed;
+      display: inline;
+      right: 5rem;
+      width: 3rem;
+      top: 0rem;
     }
 
     .highlight
     {
       position: absolute;
-      width: 100px;
       background-color: #2c3958;
       height: 100%;
-      top: 0px;
-      right: 22px;
-      z-index: 0;
+      right: 0.5rem;
+      width: 4rem;
+      top: 0rem;
     }
 
     .user_pic
@@ -1703,32 +1695,32 @@
 
     .collection
     {
-      width: 5%;
-      position:fixed;
-      display: inline;
-      top: -1px;
-      right: 10px;
-      padding: 10px;
+      position: fixed;
+      display: block;
+      width: 2.5rem;
+      height: auto;
+      top: 0.2rem;
+      right: 1rem;
     }
 
     .back_top
     {
-      width: 5%;
-      position:fixed;
-      display: inline;
-      top: -1px;
-      right: 80px;
-      padding: 10px;
+      position: fixed;
+      display: block;
+      width: 2.5rem;
+      height: auto;
+      top: 0.2rem;
+      right: 4.5rem;
     }
 
     .highlight
     {
       position: absolute;
-      width: 85px;
+      width: 3.5rem;
       background-color: #2c3958;
       height: 100%;
       top: 0px;
-      right: 0px;
+      right: 0.5rem;
     }
 
     #bin{}
@@ -1737,7 +1729,7 @@
     {
       position: absolute;
       top: 61px;
-      right: 0px;
+      right: 0.5rem;
       background: #2c3958;
       width:256px;
       height: 100px;
@@ -1746,7 +1738,7 @@
     .bin1 
     {
       position: absolute;
-      right:0px;
+      right:0.5rem;
       top: 112px;
       width: 256px;
       height: 100px;
@@ -1759,7 +1751,7 @@
     .bin2 
     {
       position: absolute;
-      right: 0px;
+      right: 0.5rem;
       top: 212px;
       width: 256px;
       height: 100px;
@@ -1772,7 +1764,7 @@
     .bin3 
     {
       position: absolute;
-      right: 0px;
+      right: 0.5rem;
       top: 312px;
       width: 256px;
       height: 100px;
@@ -1786,7 +1778,7 @@
     .bin4 
     {
       position: absolute;
-      right: 0px;
+      right: 0.5rem;
       top: 412px;
       width: 256px;
       height: 100px;

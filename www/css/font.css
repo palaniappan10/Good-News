@@ -1174,6 +1174,16 @@
     top: 15;
   }
 
+  bin_names
+  {
+    position: absolute;
+    font-family: OfficinaSansStd-Bold;
+    font-size: 1.438em;
+    color: #fff;
+    bottom: 10px;
+    margin-left: -41;
+    pointer-events:none;
+  }
 
   .rating_quotes_one
   {
@@ -1409,7 +1419,6 @@
     font-size: 1.3rem;
     text-rendering: optimizeSpeed;
   }
-
 
 }
 
@@ -1657,6 +1666,16 @@
 
     }
 
+    bin_names
+    {
+      position: absolute;
+      font-family: OfficinaSansStd-Bold;
+      font-size: 1.438em;
+      color: #fff;
+      bottom: 10px;
+      margin-left: -41;
+      pointer-events:none;
+    }
 
     headlines_feature
     {
