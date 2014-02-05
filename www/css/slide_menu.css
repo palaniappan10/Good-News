@@ -213,6 +213,10 @@ animation-duration:.4s;
 		text-decoration: none;
 		cursor: pointer;
 	}
+	.gn-search-item
+	{
+		height: 22%;
+	}
 	.no-touch .gn-menu-main a:hover, .no-touch .gn-menu li.gn-search-item:hover, .no-touch .gn-menu li.gn-search-item:hover a 
 	{
 		background: #5f6f81;

@@ -24,7 +24,7 @@ function MenuSystem_Init()
   aboutPageDiv = $(".popupbox");
   disclaimerPageDiv = $(".popupbox1");
 
-  FastClick.attach($('#user_click_area').get(0));
+  //FastClick.attach($('#user_click_area').get(0));
   //FastClick.attach($('.user_name').get(0));
 
   FastClick.attach($('#settings').get(0));
