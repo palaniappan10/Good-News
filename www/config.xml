@@ -55,6 +55,7 @@
     <gap:plugin name="org.apache.cordova.vibration" />
     <gap:plugin name="com.phonegap.plugins.facebookconnect">
         <param name="APP_ID" value="593977184008472" />
+        <param name="APP_NAME" value="Good-News" />
     </gap:plugin>
     <access origin="*" />
     <content src="index.html" />
