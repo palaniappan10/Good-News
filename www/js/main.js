@@ -3,7 +3,7 @@ document.addEventListener("resume", OnResume, false);
 
 
 // On Pc 
-var pc = false;
+var pc = true;
 docReady( function() 
 {
 	if( pc )
