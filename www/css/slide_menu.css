@@ -509,7 +509,7 @@ animation-duration:.4s;
 		overflow: hidden;
 		cursor: pointer;
 		border: 2px solid #FFFFFF;
-		border-radius: 3rem;
+		border-radius: 45362px;
 		margin-right: 35%;
 		margin-top: 0.5rem;
 		float: right;
@@ -747,14 +747,15 @@ animation-duration:.4s;
 		padding: 0;
 	}
 
-	.ui-dialog .ui-dialog-content {
+	.ui-dialog .ui-dialog-content 
+	{
 		position: relative;
 		border: 0;
 		padding: .3em 1em;
 		background: none;
 		overflow: auto;
 		font-family:SourceSansPro-Light;
-		font-size: 1.5em;
+		font-size: 2em;
 		text-rendering: optimizeSpeed;
 		letter-spacing:-0.5px;
 
@@ -769,7 +770,7 @@ animation-duration:.4s;
 		text-overflow: ellipsis;
 		font-family:SourceSansPro-Light;
 		font-weight: lighter;
-		font-size: 2em;
+		font-size: 2.5em;
 		text-rendering: optimizeSpeed;
 		color: #faaf3a;
 		margin-left: 0.3em;
@@ -1215,7 +1216,7 @@ animation-duration:.4s;
 		overflow: hidden;
 		cursor: pointer;
 		border: 2px solid #FFFFFF;
-		border-radius: 48px;
+		border-radius: 40000px;
 		margin-right: 35%;
 		margin-top: 2%;
 		float: right;
@@ -1333,7 +1334,6 @@ animation-duration:.4s;
 		color: #fff;
 		background: none;
 		cursor: pointer;
-		margin-left: 30px;
 		display: inline-block;
 		letter-spacing: 1px;
 		position: relative;
@@ -1377,6 +1377,8 @@ animation-duration:.4s;
 		display: block;
 		text-align: center;
 		margin-top: 2rem;
+		left: 50%;
+		margin-left: -13rem;
 	}
 	.ui-dialog .ui-dialog-content {
 		position: relative;
@@ -1982,20 +1984,21 @@ animation-duration:.4s;
 	    text-align: right;
 	}
 
-	.onoffswitch-switch {
-	   width: 50px;
-	height: 50px;
-	margin: 5px;
-	background: #FFFFFF;
-	border: 2px solid #FFFFFF;
-	border-radius: 48px;
-	position: relative;
-	top: 0px;
-	bottom: 0px;
-	-moz-transition: all 0.3s ease-in 0s;
-	-webkit-transition: all 0.3s ease-in 0s;
-	-o-transition: all 0.3s ease-in 0s;
-	transition: all 0.3s ease-in 0s;
+	.onoffswitch-switch 
+	{
+		width: 50px;
+		height: 50px;
+		margin: 5px;
+		background: #FFFFFF;
+		border: 2px solid #FFFFFF;
+		border-radius: 40000px;
+		position: relative;
+		top: 0px;
+		bottom: 0px;
+		-moz-transition: all 0.3s ease-in 0s;
+		-webkit-transition: all 0.3s ease-in 0s;
+		-o-transition: all 0.3s ease-in 0s;
+		transition: all 0.3s ease-in 0s;
 	}
 
 	.onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-inner {
@@ -2068,7 +2071,6 @@ animation-duration:.4s;
 		color: #fff;
 		background: none;
 		cursor: pointer;
-		margin-left: 50px;
 		display: inline-block;
 		letter-spacing: 1px;
 		position: relative;
@@ -2112,6 +2114,8 @@ animation-duration:.4s;
 		display: block;
 		text-align: center;
 		margin-top: 2rem;
+		left: 50%;
+		margin-left: -15rem;
 	}
 	.ui-dialog .ui-dialog-content {
 		position: relative;
@@ -2639,7 +2643,7 @@ animation-duration:.4s;
 	    overflow: hidden; 
 	    cursor: pointer;
 	    border: 2px solid #FFFFFF; 
-	    border-radius: 48px;
+	    border-radius: 40000px;
 	    margin-top: 1%;
 	    margin-right: 35%;
 	    float: right;
