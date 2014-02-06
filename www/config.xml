@@ -53,10 +53,10 @@
     <gap:plugin name="org.apache.cordova.network-information" />
     <gap:plugin name="org.apache.cordova.splashscreen" />
     <gap:plugin name="org.apache.cordova.vibration" />
-<!--     <gap:plugin name="com.phonegap.plugins.facebookconnect">
+    <gap:plugin name="com.phonegap.plugins.facebookconnect">
         <param name="APP_ID" value="593977184008472" />
         <param name="APP_NAME" value="Good-News" />
-    </gap:plugin> -->
+    </gap:plugin>
     <access origin="*" />
-    <content src="splash/index.html" />
+    <content src="index.html" />
 </widget>

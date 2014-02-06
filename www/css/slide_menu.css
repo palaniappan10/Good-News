@@ -54,35 +54,6 @@ background : url('../img/menu_sprite.png') no-repeat;
 	pointer-events:all;
 }
 
-/*@-webkit-keyframes fadeIn {
-0% 
-{	
--webkit-transform: scale(1);
-opacity: 1;
-}	
-100% 
-{	
--webkit-transform: scale(100);
-opacity: 0;
-}
-}
-@keyframes fadeIn {
-0% {opacity: 0;-webkit-transform: scale(1);}	
-100% {opacity: 1;-webkit-transform: scale(100);}
-}
-
-.scaleup_fadeout 
-{
--webkit-animation-name: fadeIn;
--moz-animation-name: fadeIn;
--o-animation-name: fadeIn;
-animation-name: fadeIn;
--webkit-animation-fill-mode:both;
-animation-fill-mode:both;
--webkit-animation-duration:.4s;
-animation-duration:.4s;
-}*/
-
 
 @media (min-width: 320px) and (max-width: 639px){
 
