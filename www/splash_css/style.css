@@ -13,10 +13,11 @@ body
 
 .area
 {
-width: 90%;
-text-align: center;
-margin-left: -47%;
-margin-top: -3%;
+	position: relative;
+	width: 90%;
+	text-align: center;
+	margin-left: -47%;
+	margin-top: -3%;
 
 }
 
@@ -26,11 +27,12 @@ margin-top: -3%;
 
 .area
 {
-width: 68%;
-height: 90%;
-text-align: center;
-margin-left: -25%;
-margin-top: -12%;
+	position: relative;
+	width: 90%;
+	height: 90%;
+	text-align: center;
+	margin-left: -46%;
+	margin-top: -19%;
 }
 }
 
