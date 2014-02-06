@@ -2,8 +2,8 @@ body
 {
 	/*position: relative;*/
 	/*height: auto;*/
-	/*background-image:url('../splash screen images/720x1280.png');*/
-
+	background-image:url('../splash screen images/720x1280.png');
+	background-repeat: no-repeat;
 	background-color: #344368;/*#344368*/
 	overflow:hidden; 
 	pointer-events:none;
@@ -40,22 +40,22 @@ body
 .app-icon
 {
 	position: absolute;
-	margin: 71% 29% auto;
-	width: 43%;
+	margin: 35% 14%;
+	width: 21%;
 	z-index: 1;
 }
 
 .sun
 {
 	position: absolute;
-	margin: 66% 63.5% auto;
-	width: 20%;
+	margin: 32% 31%;
+	width: 10%;
 }
 .sunrays
 {
 	position: absolute;
-	margin: 58.5% 56.5% auto;
-	width: 34%;
+	margin: 28.5% 27.5%;
+	width: 16.5%;
 }
 .flower 
 {
