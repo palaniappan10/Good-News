@@ -1,0 +1,285 @@
+
+@media (min-width:2047px){
+  .particle
+{
+  margin: 99% 41.5% auto;
+  position:absolute;
+  width: 1rem;
+  height: 1rem;
+  border-radius:100%;
+  -webkit-backface-visibility: hidden;
+  background-image:-webkit-linear-gradient(rgba(0,0,0,0),rgba(0,0,0,.3) 75%,rgba(0,0,0,0));
+  box-shadow:inset 0 0 1px 1px rgba(0,0,0,.25);
+  -webkit-perspective:0;
+
+}
+
+
+.particle--a{
+  -webkit-animation:particle-a 1.4s infinite linear;
+  animation:particle-a 1.4s infinite linear;
+  -webkit-backface-visibility: hidden;
+  background-color:#d5f475;
+  -webkit-perspective:0;
+  }
+
+  .particle--b{
+    -webkit-animation:particle-b 1.3s infinite linear;
+    animation:particle-b 1.3s infinite linear;
+    -webkit-backface-visibility: hidden;
+    background-color:#d5f475;
+    -webkit-perspective:0;
+    }
+    .particle--c
+    {
+      -webkit-animation:particle-c 1.5s infinite linear;
+      animation:particle-c 1.5s infinite linear;
+      -webkit-backface-visibility: hidden;
+      -webkit-perspective:0;
+      background-color:#d5f475;
+    }
+  #animateTest {
+    text-align: center;
+    padding: 20px 10px;
+    width: 260px;
+    margin: 0 auto;
+    border-radius: 5px;
+    font-weight: bold;
+    -webkit-perspective:0;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-delay: .2s;
+    -webkit-animation-timing-function: ease;
+    -webkit-animation-fill-mode: both;
+    animation-duration: 1s;
+    animation-delay: .2s;
+    animation-timing-function: ease;
+    animation-fill-mode: both;
+  }
+  
+  @-webkit-keyframes particle-a {
+    
+	    0%   {-webkit-transform: translate3D(-3rem,-3rem,0); z-index: 1; -webkit-animation-timing-function: ease-in-out;} 
+
+	    25%  {width: 1.2rem; height: 1.2rem;}
+
+	    50%  {-webkit-transform: translate3D(4rem, 3rem, 0); opacity: 1; z-index: 1; -webkit-animation-timing-function: ease-in-out;}
+
+	    55%  {z-index: -1;}
+
+	    75%  {width: .75rem; height: .75rem; opacity: .5;}
+
+	    100% {-webkit-transform: translate3D(-3rem,-3rem,0); z-index: -1;}
+    }
+
+
+  @-webkit-keyframes particle-b {
+    
+	    0%  {-webkit-transform: translate3D(3rem,-3rem,0); z-index: 1; -webkit-animation-timing-function: ease-in-out;}
+
+	    25% {width: 1.2rem; height: 1.2rem;}
+
+	    50% {-webkit-transform: translate3D(-3rem, 3.5rem, 0); opacity: 1; z-index: 1; -webkit-animation-timing-function: ease-in-out;}
+
+	    55% {z-index: -1}
+
+	    75% {width: .5rem; height: .5rem; opacity: .5;}
+
+	    100% {-webkit-transform: translate3D(3rem,-3rem,0); z-index: -1;}
+	}
+
+
+  @-webkit-keyframes particle-c {
+      
+      0% {-webkit-transform: translate3D(-1em,-4.5rem,0); z-index: 1; -webkit-animation-timing-function: ease-in-out;}
+
+      25% {width: 1.2rem; height: 1.2rem;}
+
+      50% {-webkit-transform: translate3D(2rem, 2.5rem, 0); opacity: 1; z-index: 1; -webkit-animation-timing-function: ease-in-out;}
+
+      55% {z-index: -1;}
+
+      75% { width: .5rem; height: .5rem; opacity: .5;}
+
+      100% {-webkit-transform: translate3D(-1rem,-4.5rem,0); z-index: -1;}
+    }
+
+  }
+
+@media (max-width:2049px ){
+
+  .particle
+{
+  margin: 99% 41.5% auto;
+  position:absolute;
+  width: 1rem;
+  height: 1rem;
+  border-radius:100%;
+  -webkit-backface-visibility: hidden;
+  background-image:-webkit-linear-gradient(rgba(0,0,0,0),rgba(0,0,0,.3) 75%,rgba(0,0,0,0));
+  box-shadow:inset 0 0 1px 1px rgba(0,0,0,.25);
+  -webkit-perspective:0;
+
+}
+
+
+.particle--a{
+  -webkit-animation:particle-a 1.4s infinite linear;
+  animation:particle-a 1.4s infinite linear;
+  -webkit-backface-visibility: hidden;
+  background-color:#d5f475;
+  -webkit-perspective:0;
+  }
+
+  .particle--b{
+    -webkit-animation:particle-b 1.3s infinite linear;
+    animation:particle-b 1.3s infinite linear;
+    -webkit-backface-visibility: hidden;
+    background-color:#d5f475;
+    -webkit-perspective:0;
+    }
+    .particle--c
+    {
+      -webkit-animation:particle-c 1.5s infinite linear;
+      animation:particle-c 1.5s infinite linear;
+      -webkit-backface-visibility: hidden;
+      -webkit-perspective:0;
+      background-color:#d5f475;
+    }
+  #animateTest {
+    text-align: center;
+    padding: 20px 10px;
+    width: 260px;
+    margin: 0 auto;
+    border-radius: 5px;
+    font-weight: bold;
+    -webkit-perspective:0;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-delay: .2s;
+    -webkit-animation-timing-function: ease;
+    -webkit-animation-fill-mode: both;
+    animation-duration: 1s;
+    animation-delay: .2s;
+    animation-timing-function: ease;
+    animation-fill-mode: both;
+  }
+  
+  @-webkit-keyframes particle-a {
+    0% 
+    {
+    -webkit-transform: translate3D(-1.5rem,-1.5rem,0);
+    z-index: 1;
+    -webkit-animation-timing-function: ease-in-out;
+    } 
+
+    25% 
+    {
+    width: 0.75rem;
+    height: 0.75rem;
+    }
+
+    50% 
+    {
+    -webkit-transform: translate3D(2rem, 1.5rem, 0);
+    opacity: 1;
+    z-index: 1;
+    -webkit-animation-timing-function: ease-in-out;
+    }
+
+    55% 
+    {
+    z-index: -1;
+    }
+
+    75% 
+    {
+    width: .375rem;
+    height: .375rem;
+    opacity: .5;
+    }
+
+    100% 
+    {
+    -webkit-transform: translate3D(-1.5rem,-1.5rem,0);
+    z-index: -1;
+    }
+    }
+
+
+  @-webkit-keyframes particle-b {
+    0% 
+    {
+     -webkit-transform: translate3D(1.5rem,-1.5rem,0);
+      z-index: 1;
+      -webkit-animation-timing-function: ease-in-out;
+    }
+
+    25% {
+      width: 0.75rem;
+      height: 0.75rem;
+    }
+
+    50% {
+      -webkit-transform: translate3D(-1.5rem, 1.75rem, 0);
+      opacity: 1;
+      z-index: 1;
+      -webkit-animation-timing-function: ease-in-out;
+    }
+
+    55% {
+      z-index: -1;
+    }
+
+    75% {
+      width: .25rem;
+      height: .25rem;
+      opacity: .5;
+    }
+
+    100% {
+     -webkit-transform: translate3D(1.5rem,-1.5rem,0);
+      z-index: -1;
+    }
+    }
+
+
+  @-webkit-keyframes particle-c {
+      0% {
+       -webkit-transform: translate3D(-.5em,-2.25rem,0);
+        z-index: 1;
+        -webkit-animation-timing-function: ease-in-out;
+      }
+
+      25% {
+        width: 0.65rem;
+        height: 0.65rem;
+      }
+
+      50% {
+        -webkit-transform: translate3D(1rem, 1.25rem, 0);
+        opacity: 1;
+        z-index: 1;
+        -webkit-animation-timing-function: ease-in-out;
+      }
+
+      55% {
+        z-index: -1;
+      }
+
+      75% {
+        width: .25rem;
+        height: .25rem;
+        opacity: .5;
+      }
+
+      100% 
+      {
+       -webkit-transform: translate3D(-.5rem,-2.25rem,0);
+        z-index: -1;
+      }
+    }
+
+  }
